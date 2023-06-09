@@ -1,0 +1,8 @@
+services:
+    _defaults:
+        autowire: true
+
+    kaileymsnay.confirmemail.listener:
+        class: kaileymsnay\confirmemail\event\main_listener
+        tags:
+            - { name: event.listener }
